@@ -1,0 +1,171 @@
+style.css2
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+  }
+  header {
+    position: sticky;
+    top: 0;
+    padding: 0 40px;
+    background-color: rgba(255, 255, 255, 0.9);
+  
+  }
+
+ a {flex-direction: row-reverse; counter-increment: 
+  
+
+    display: inline-block;
+  }
+
+
+
+
+
+  
+
+  
+  .content {
+    border: 1px solid gray;
+    padding: 10px;
+    width: 200;
+    height: 200;
+  }
+  .navmenu {
+    display: flex; 
+    justify-content: space-between;
+  }
+  .nav-links li {
+    list-style: none;
+    display: inline;
+    align-items: center;
+    padding: 0;
+    margin-right: 20px;
+  }
+  .about {
+    display : flex  ;
+   justify-content: space-between;}
+
+
+     
+  .navmenu a {
+    text-decoration: none;
+    color: #484551;
+  }
+  .navmenu a:hover {
+    text-decoration:underline;
+  
+    color: #4fa3db;
+  }
+  h1 { color: #380cbb;
+  }
+  .navmenu li {
+    font-weight: 550;
+    font-size: 14px;
+    margin: 23px 0px;
+    padding: 0 12px;
+  }
+  .navlinks li:last-child {
+    margin-right: 20; 
+  }
+/* responsive navbar */
+
+  
+
+  .about-section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .buttons:hover {
+    background-color: #380cbb;
+    font-size: larger;
+  }
+  .buttons{
+    padding: 10px;
+  }
+ .projets{
+   display:flex;
+  justify-content: space-between; }
+ .project{
+  margin: 20px;
+ }
+  /* main */
+
+  main {
+    padding: 0 40px;
+  }
+  .about-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px ;
+
+  }
+  .about-section h1 {
+    color: #939296;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 2.6em;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 20;
+
+  }
+  .css-span {
+    color: #4fa3db;
+    font-weight: bold;
+  }
+  .watchvideo-btn {
+    padding: 20px 40px;
+    border: 1px solid #484551;
+    border-radius: 6px;
+    background-color: white;
+    color: #484551;
+    font-weight: normal;
+    font-size: 20px;
+  }
+  .watchvideo-btn:hover {
+    border: transparent;
+    background-color: #4fa3db;
+    color: white;
+  }
+  .projects-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 30px 0;
+  }
+  .project {
+    margin-bottom: 50px;
+  }
+  .project p {
+    line-height: 30px;
+    color: #acabaf;
+  }
+  .project a {
+    color: #4fa3db;
+  }
+  .project-5 {
+    order: -1;
+  }
+  /* footer */
+
+  footer {
+    margin: 0;
+    padding: 0;
+  }
+  footer div {
+    background-color: #e8e8e6;
+  }
+  footer-message {
+    text-align: center;
+    padding: 25px 40px;
+    font-size: 16px;
+    color: #363945;
+    margin-bottom: 0;
+  }
+  footer span {
+    text-decoration: underline;
+    color: #5b6b7f;
+  }
+  
+  
